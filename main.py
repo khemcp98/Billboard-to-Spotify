@@ -30,8 +30,8 @@ def create():
     # setting up spotify api (spotify for developers)
 
     scope = 'playlist-modify-public'
-    client_id = 'e98c02f699aa4eafaa67c4c44e1aebfc'
-    client_secret = '3794686269c64bfdbed5966a24dc789a'
+    client_id = 'YOUR CLIENT ID'
+    client_secret = 'YOUR SECRET TOKEN'
 
     sp = spotipy.Spotify(
         auth_manager=SpotifyOAuth(
